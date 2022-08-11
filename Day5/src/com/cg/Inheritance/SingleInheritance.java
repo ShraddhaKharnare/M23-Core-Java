@@ -13,7 +13,7 @@ class Child extends Parent
 {
 	 void accept()
 		{
-			System.out.println("rollno is:"+rollno);  
+			System.out.println("rollno is: "+rollno);  
 		}	
 }
 
@@ -23,9 +23,11 @@ public class SingleInheritance {
 	public static void main(String[] args)
 	{
       Child c=new Child();
-      c.accept();
-      c.rollno=121;
       c.print();
+      c.rollno=212;
+      c.accept();
+      
+      
 
 	}
 

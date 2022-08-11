@@ -2,12 +2,12 @@ package com.cg.statickeyword;
 
 public class StaticBlock
 {
-	static int num;
-	static String str;
+	static int a;
+	static String name;
 	static
 	{
-		num=15;
-		str="Shraddha";
+		a=24;
+		name="Shraddha";
 		
 	}
 
@@ -24,8 +24,8 @@ public class StaticBlock
 		//StaticBlock sb=new StaticBlock();
 		//System.out.println(sb.num);
 		//System.out.println(sb.str);
-		System.out.println(num);
-		System.out.println(str);
+		System.out.println(a);
+		System.out.println(name);
 		
 		
 

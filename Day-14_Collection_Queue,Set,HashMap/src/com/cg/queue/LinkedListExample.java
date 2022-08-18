@@ -1,4 +1,4 @@
-package com.cg.list;
+package com.cg.queue;
 
 import java.util.LinkedList;
 

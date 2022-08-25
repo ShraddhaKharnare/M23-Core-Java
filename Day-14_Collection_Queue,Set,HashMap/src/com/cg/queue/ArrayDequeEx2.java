@@ -2,7 +2,7 @@ package com.cg.queue;
 
 import java.util.ArrayDeque;
 
-public class QueueEx2 {
+public class ArrayDequeEx2 {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) 

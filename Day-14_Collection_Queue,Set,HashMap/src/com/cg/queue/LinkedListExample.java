@@ -4,12 +4,10 @@ import java.util.LinkedList;
 
 public class LinkedListExample 
 {
-
-	@SuppressWarnings("unchecked")
 	public static void main(String[] args)
 	{
-		@SuppressWarnings("rawtypes")
-		LinkedList obj=new LinkedList<>();
+		
+		LinkedList<Object> obj=new LinkedList<>();
 		obj.add(11);
 		obj.add("Shraddha");
 		obj.add(71.77);

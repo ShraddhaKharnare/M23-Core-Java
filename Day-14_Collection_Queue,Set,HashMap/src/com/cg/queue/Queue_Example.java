@@ -1,11 +1,8 @@
 package com.cg.queue;
-
 import java.util.PriorityQueue;
 import java.util.Queue;
-
 public class Queue_Example 
 {
-
 	public static void main(String[] args) 
 	{
 		Queue<Integer> q=new PriorityQueue<Integer>();
@@ -16,8 +13,5 @@ public class Queue_Example
 		System.out.println(q);
 		System.out.println(q.peek());
 		System.out.println(q.poll());
-		
-		
 	}
-
 }

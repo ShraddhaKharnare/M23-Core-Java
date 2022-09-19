@@ -7,7 +7,7 @@ package com.cg.multithreading;
 		System.out.println("Current Thread"  +Thread .currentThread ());
 	    for(int i=0; i<5; i++)
 	    {
-	    	System.out.println(Thread.currentThread().getName()"i");
+	    	System.out.println(Thread.currentThread().getName());
 	    		try 
 	    		{
 				  Thread.sleep(50);

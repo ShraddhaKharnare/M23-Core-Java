@@ -6,13 +6,14 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 
+
 class ParameterizedTestDemo 
 {	
 	@ParameterizedTest
-	@ValueSource(strings-> {"Shraddha"," Meenu"})
+	@ValueSource(strings= {"shraddha","shreya"})
+	void print(String word)
+	{
+		assertNotNull(word);
+	}
 	
-	   void print(String word)
-		{
-			assertNotNull(word);
-		}
 }
